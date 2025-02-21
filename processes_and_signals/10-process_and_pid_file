@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Script
-ile="/var/run/myscript.pid"
+file="/var/run/myscript.pid"
 
 if [ ! -e "$file" ]; then
   touch "$file"
